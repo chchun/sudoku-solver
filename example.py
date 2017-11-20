@@ -57,13 +57,13 @@ examples = ([
 ])
 
 for example in examples:
-    print "EXAMPLE:"
+    print("EXAMPLE:")
     problem = sudoku.Sudoku(example)
-    print problem.ascii
+    print(problem.ascii)
     solution = problem.solve()
     if solution:
-        print "Solution:"
-        print solution.ascii
+        print("Solution:")
+        print(solution.ascii)
     else:
-        print "Invalid puzzle."
-print
+        print("Invalid puzzle.")
+print()
